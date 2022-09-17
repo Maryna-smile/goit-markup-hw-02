@@ -145,6 +145,9 @@ body {
     line-height: 1.17;
     text-decoration: none;
 }
+.address-style{
+    font-style: normal;
+}
 /* сторінка №2 portfolio */
 
 /* кнопки */
@@ -161,6 +164,7 @@ body {
 .button-porfolio:hover {
   background-color: var(--color-of-efect);
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 .work-title {
   font-weight: 700;
@@ -171,6 +175,7 @@ body {
 }
 .work-desc {
   font-size: 16px;
+font-weight: 400;
   line-height: 1.88;
   color: #757575;
 }
